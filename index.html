@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Come creare un template per i post</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-name">
+        <img class="logo-epic" src="assets/Screenshot 2024-07-30 151325.png" alt="img-logo" />
+        <div class="name-brand">
+          <h1 class="h1-title">EPICODE</h1>
+          <h3 class="h3-title">Il blog dei <span class="color-title">developers</span></h3>
+        </div>
+      </div>
+      <div class="menu">
+        <p>HOME <ion-icon name="ellipsis-vertical-outline"></ion-icon></p>
+        <p>ARTICOLI <ion-icon name="ellipsis-vertical-outline"></ion-icon></p>
+        <p>LAVORA CON NOI <ion-icon name="ellipsis-vertical-outline"></ion-icon></p>
+      </div>
+    </header>
+
+    <main>
+      <section class="title">
+        <h1 class="section-title">Come creare un tamplate per i post di Mario Rossi</h1>
+        <h4 class="h4-section">Pubblicato il 25-10-2020</h4>
+      </section>
+
+      <section class="contenuto-post">
+        <fieldset>
+          <legend><strong>Come cominciare?</strong></legend>
+          <p class="p-fieldset">La prima cosa da fare è suddividere in blocchi la pagina, identificando le parti comuni da applicare a tutte le pagine.</p>
+          <ul class="ul-fieldset">
+            Le vaire aree saranno quindi suddivise in:
+            <li>Contenuti di intestazione del tag header</li>
+            <li>Contenuti centrali variabili del tag main (corpo principale)</li>
+            <li>Contenuti di fine pagina comuni, da inserire nel tag footer</li>
+          </ul>
+          <h4>Formattazione del codice</h4>
+          <p>
+            Il testo dell'articolo dovra essere formattato per identificare tutte le parti da selezionare con i CSS. <br />
+            Perciò i passi saranno:
+          </p>
+          <ol>
+            <li>Progettare il markup assegando ad ogni specifico testo il tag appropriato</li>
+            <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+            <li>Applicare gli stili CSS</li>
+          </ol>
+          <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
+          <table>
+            <caption>
+              <strong> diffusione dei CSS</strong>
+            </caption>
+            <tr>
+              <th>ANNO</th>
+              <th>% DI UTILIZZO</th>
+              <th>SUPPORTO <br />browsers</th>
+            </tr>
+            <tr>
+              <th>2000</th>
+              <th>20%</th>
+              <th>17%</th>
+            </tr>
+            <tr>
+              <th>2002</th>
+              <th>35%</th>
+              <th>22%</th>
+            </tr>
+            <tr>
+              <th>2004</th>
+              <th>45%</th>
+              <th>42%</th>
+            </tr>
+            <tr>
+              <th>2008</th>
+              <th>80%</th>
+              <th>51%</th>
+            </tr>
+            <tr>
+              <th>2012</th>
+              <th>100%</th>
+              <th>76%</th>
+            </tr>
+          </table>
+        </fieldset>
+      </section>
+      <section class="sub-articoli">
+        <div class="sub">
+          <p>
+            <strong>Vuoi rimanere aggiornato su altre novità del Blog? <br />Iscriviti alla nostra newsletter: </strong>
+          </p>
+          <input type="email" placeholder="Inserisci la tua email" />
+          <button>ISCRIVITI</button>
+        </div>
+        <aside>
+          <h4>Articoli correlati:</h4>
+          <ul class="ul-articoli">
+            <li><span class="color-article">Validare il codice Html</span></li>
+            <li>Categoria: Developer</li>
+            <li>Data:18-09-2020</li>
+          </ul>
+          <ul class="ul-articoli">
+            <li><span class="color-article">Validare il codice Html</span></li>
+            <li>Categoria: Developer</li>
+            <li>Data:18-09-2020</li>
+          </ul>
+          <ul class="ul-articoli">
+            <li><span class="color-article">Validare il codice Html</span></li>
+            <li>Categoria: Developer</li>
+            <li>Data:18-09-2020</li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+    <footer>
+      <p class="p-footer">
+        Blog Epiccode©2023 <br />
+        testata online di Mario rossi, registrata con prot.213/2018-Via Luigi Einaudi 2-Milano P.IVA 00112233. <br />info@epicode.school
+      </p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
