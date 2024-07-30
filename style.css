@@ -64,11 +64,14 @@ tr,th{
 .sub-articoli{
    display: flex;
    justify-content: space-around;
-   margin: 0 20em;
+   margin: 3em 20em;
+}
+.art{
+     text-align: center;
 }
 aside{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     cursor: pointer;
 }
 .ul-articoli{
