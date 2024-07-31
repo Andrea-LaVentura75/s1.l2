@@ -61,11 +61,7 @@ tr,th{
     border: solid;
    
 }
-.sub-articoli{
-   display: flex;
-   justify-content: space-around;
-   margin: 3em 20em;
-}
+
 .art{
      text-align: center;
 }
@@ -84,6 +80,29 @@ tr,th{
 }
 .color-article{
     color: rgb(197, 31, 86);
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.email-button{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+.email{
+    border-radius: 10px;
+    height: 25px;
+    border: 1px solid;
+}
+.button{
+    border-radius: 10px;
+    height: 28px;
+    background: linear-gradient(88deg, #d52f2f, #34aadf);
+    border: 1px solid;
+    cursor: pointer;
 }
 footer{
     background-color: black;
